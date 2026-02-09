@@ -22,6 +22,7 @@ import Kotlin_Basic.Function.ReturnFunction
 import Kotlin_Basic.OOP.ClassAndObject
 import Kotlin_Basic.OOP.DataClass
 import Kotlin_Basic.OOP.Enhancing
+import Kotlin_Basic.OOP.Inheritance
 import Kotlin_Basic.OOP.SecondaryConstructor
 import Kotlin_Basic.OOP.SingletonDesignPattern
 import Kotlin_Basic.OOP.StructuralEquality
@@ -58,7 +59,8 @@ fun main() {
     val dataClass = DataClass()
     val structuralEquality = StructuralEquality()
     val enhancing = Enhancing()
+    val inheritance = Inheritance()
 
 
-    enhancing.run()
+    inheritance.run()
 }
